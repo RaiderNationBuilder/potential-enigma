@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 var inquirer = require('inquirer')
-var thingImImporting = require('./utils/generateMarkdown')
+var generateMarkdown = require('./utils/generateMarkdown')
 var fs = require('fs')
-console.log('thingImImporting', thingImImporting)
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -56,7 +56,7 @@ function init() {
     inquirer.prompt(questions)
         .then(function(answers) {
             console.log(answers)
-            var fakeReadme = thingImImporting.generateMarkdown(answers)
+            var fakeReadme = generateMarkdown(answers)
             console.log(fakeReadme)
             writeToFile("readme.md", fakeReadme)
         })
