@@ -1,6 +1,6 @@
 
   # Title
-  asdfsadfas
+  Potential Enigma
 
   # License
   
@@ -10,24 +10,24 @@
   
 
   # Description:
-  asdfasdfasdf
+  I was tasked with creating a readme generator for future projects. The readme should create a title, description, license, usage, installation, contributitor, and developer questions section that include github username and email address for the developer.
 
   # Installation:
-  asdfsdfasf
+  create a local file and use the "git clone git@github.com:RaiderNationBuilder/potential-enigma.git" command
 
   # Usage:
-  asdfsadfas
+  run the app through Node.js in your terminal navigate to the root of the folder and use the command "node index.js". Then just answer the    questions. 
   ![alt text](assets/images/githubreadme.jpg)
   ![alt text](assets/images/readme.jpg)
 
   # Contributions:
-  asdfsadfa
+  Patrick Sebstead
 
   # Testing:
-  sdafasdfsa
+  follow the installation and usage instructions then you should see a readme.md file created in the root of your folder.
 
   # Questions:
-  github username: adsfsdfas
+  github username: RaiderNationBuilder
 
   If you have any questions about this project you can reach me at the following email address:
-  asdfasdf
+  sebstead@yahoo.com
