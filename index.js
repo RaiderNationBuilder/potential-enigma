@@ -23,12 +23,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "installation instructions",
+        name: "installation",
         message: "how do you install the project?"
     },
     {
         type: "input",
-        name: "usage information",
+        name: "usage",
         message: "how do you use this project?"
     },
     {
@@ -38,7 +38,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "test instructions",
+        name: "testing",
         message: "how do you test this project?"
     },
 ];
@@ -58,7 +58,7 @@ function init() {
             console.log(answers)
             var fakeReadme = generateMarkdown(answers)
             console.log(fakeReadme)
-            writeToFile("readme.md", fakeReadme)
+            writeToFile("readme.md", fakeReadme)            
         })
 }
 
