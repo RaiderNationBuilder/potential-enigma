@@ -46,17 +46,25 @@ function generateMarkdown(data) {
   # Description:
   ${data.description}
 
-  # Installation
+  # Installation:
   ${data.installation}
 
-  # Usage
+  # Usage:
   ${data.usage}
+  ![alt text](assets/images/githubreadme.jpg)
+  ![alt text](assets/images/readme.jpg)
 
-  # Contributions
+  # Contributions:
   ${data.contributions}
 
-  # Testing
+  # Testing:
   ${data.testing}
+
+  # Questions:
+  github username: ${data.username}
+
+  If you have any questions about this project you can reach me at the following email address:
+  ${data.email}
 `
   console.log(data);
 }
